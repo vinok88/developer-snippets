@@ -22,3 +22,5 @@ Collection of commands that will require for developers in day to day life
 `uninstall <Bundle_id>` - uninstall a bundle
 
 `services` - list all services
+
+`-DosgiDebugOptios` - use this while starting to advance debug options.
