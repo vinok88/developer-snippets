@@ -24,3 +24,14 @@ Collection of commands that will require for developers in day to day life
 `services` - list all services
 
 `-DosgiDebugOptios` - use this while starting to advance debug options.
+
+## High CPU Thread analysis
+Take an output using `top -H`. Then take a thread dump. Afterwards, we can get the hex value of the ID of high cpu usage thread and find it in the thread dump.
+
+This way we can exactly pin point to the thread that consumes the CPU.
+
+Thread analysis script
+https://gist.github.com/bsenduran/02e8bf024fcaaa7707a6bb2321e097a8
+
+Top consumers
+https://gist.github.com/bsenduran/a65cd7c0abc4e95ef6222acb19beedc9
